@@ -16,14 +16,14 @@
     private state: string,
     private zipCode: number,
     private occupation: string
-   ){
-   this.FName = firstName;
-   this.LName = lastName;
-   this.Age = age;
-   this.PhoneNum = phoneNumber;
-   this.State = state;
-   this.Zip = zipCode;
-   this.Occu = occupation;
+   ) {
+    this.FName = firstName;
+    this.LName = lastName;
+    this.Age = age;
+    this.PhoneNum = phoneNumber;
+    this.State = state;
+    this.Zip = zipCode;
+    this.Occu = occupation;
    }
    
   details(): string{
